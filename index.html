@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Utopic Flowers</title>
+</head>
+<body>
+	<div id="content">
+		<header>
+			<section id="header-title">
+				<h2>Utopic Flowers</h2>
+			</section>
+			<section id="header-search">
+				<input type="text" placeholder="Search..">
+			</section>
+			<nav id="header-menu">
+				<ul>
+					<li class="current"><a href="#">HOME</a></li>
+					<li><a href="#">STYLE DEMO</a></li>
+					<li><a href="#">FULL WIDTH</a></li>
+					<li><a href="#">DROPDOWN</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">GALLERY</a></li>
+				</ul>
+			</nav>
+		</header>
+		<container>
+
+		<div id="motto">
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula neque felis, at ultricies libero laoreet vestibulum. Integer hendrerit tristique mi, id congue diam porta eget."
+		</div>
+		<div id="image-slider">
+			<div class="mySlide">
+				<img src="images/flower-1.jpg" class="slide">
+				<div class="caption">
+					<h3>First Image</h3>
+					<p>Nam bibendum, urna non laoreet egestas, odio odio mollis ante, vel fringilla metus dolor convallis odio. Nullam in lacus leo. Nam ut leo accumsan, gravida odio eleifend, tincidunt sem. Nam faucibus ultrices odio sagittis vulputate. Proin eu sapien nisl. Aenean orci mi, placerat quis tortor nec, faucibus accumsan erat. Donec blandit arcu vulputate nulla viverra lobortis.</p>
+				</div>
+			</div>
+			<div class="mySlide">
+				<img src="images/flower-2.jpg" class="slide">
+				<div class="caption">
+					<h3>Second Image</h3>
+					<p>Phasellus ut nisi feugiat leo faucibus interdum sed sed ante. Sed tempus posuere dolor ut aliquam. Quisque dapibus felis id viverra pretium. Ut id egestas nisi, interdum tempus velit.</p>
+				</div>
+			</div>
+			<div class="mySlide">
+				<img src="images/flower-3.jpg" class="slide">
+				<div class="caption">
+					<h3>Third Image</h3>
+					<p>Cras euismod, enim id vulputate blandit, ligula risus dictum nisl, a viverra massa arcu sit amet nunc. Quisque ornare sit amet urna nec fermentum. Praesent faucibus laoreet magna a iaculis. Donec metus sapien, venenatis in lacus non, rhoncus consequat nisl. Suspendisse et sem et neque pharetra auctor. </p>
+				</div>
+			</div>
+			<div class="mySlide">
+				<img src="images/flower-4.jpg" class="slide">
+				<div class="caption">
+					<h3>Fourth Image</h3>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis nec metus efficitur, placerat ipsum et, sollicitudin est. Praesent sed tincidunt arcu, sit amet volutpat risus. Aliquam dolor risus, lobortis non faucibus volutpat, pretium eget orci. Sed non massa vel dolor sagittis aliquet. Donec vel arcu in odio lobortis pulvinar.</p>
+				</div>
+			</div>
+			<div class="mySlide">
+				<img src="images/flower-5.jpg" class="slide">
+				<div class="caption">
+					<h3>Fifth Image</h3>
+					<p>Nam bibendum, urna non laoreet egestas, odio odio mollis ante, vel fringilla metus dolor convallis odio. Nullam in lacus leo. Nam ut leo accumsan, gravida odio eleifend, tincidunt sem. Nam faucibus ultrices odio sagittis vulputate. Proin eu sapien nisl. Aenean orci mi, placerat quis tortor nec, faucibus accumsan erat. Donec blandit arcu vulputate nulla viverra lobortis.</p>
+				</div>
+			</div>
+			<div id="buttons">
+				<button class="prev" onclick="plusSlides(-1)"><<</button>
+				<button class="next" onclick="plusSlides(+1)">>></button>
+			</div>
+			<div id="points">
+				<span class="point" onclick="currentSlide(1)"></span>
+				<span class="point" onclick="currentSlide(2)"></span>
+				<span class="point" onclick="currentSlide(3)"></span>
+				<span class="point" onclick="currentSlide(4)"></span>
+				<span class="point" onclick="currentSlide(5)"></span>
+			</div>
+		</div>
+		<div id="one-third-descriptions">
+			<div id="first-column" class="column">
+				<img src="images/icon-1.png">
+				<h3>Note No.1</h3>
+				<p>Mauris laoreet finibus dolor, at fringilla tellus facilisis quis. Cras sit amet nisi sit amet lacus volutpat tristique quis in nunc. Vestibulum dapibus, mauris et malesuada bibendum, libero nibh posuere odio, id condimentum sapien magna eu tellus.</p>
+			</div>
+			<div id="second-column" class="column">
+				<img src="images/icon-2.png">
+				<h3>Second Note</h3>
+				<p>Integer vehicula nibh eget pellentesque iaculis. Vivamus vulputate dictum velit, quis molestie sem semper suscipit. Quisque non nisl id felis sodales volutpat. Donec a ornare lectus.</p>
+			</div>
+			<div id="third-column" class="column">
+				<img src="images/icon-3.png">
+				<h3>Additional Notes</h3>
+				<p>Suspendisse lacinia at ante at efficitur. Phasellus auctor suscipit dolor, eget rhoncus dolor mattis non. Aenean sit amet orci sit amet quam fermentum blandit id at nibh.</p>
+			</div>
+		</div>
+		<div id="three-flowers">
+			<div id="first-flower" class="flower">
+				<img src="images/flower-col-1.jpg">
+				<h4>Yellow Flower</h4>
+				<p>Morbi quis cursus sapien. Etiam porttitor, massa dictum aliquam bibendum, lorem felis porta orci, a convallis turpis mauris sed nunc. Maecenas a risus eu augue egestas dapibus ac sed ipsum.</p>
+			</div>
+			<div id="second-flower" class="flower">
+				<img src="images/flower-col-2.jpg">
+				<h4>Red Poppy</h4>
+				<p>Morbi efficitur eleifend auctor. Nulla dignissim lacus vitae lorem iaculis iaculis. Etiam risus dolor, consectetur sit amet ante vehicula, euismod interdum sapien.</p>
+			</div>
+			<div id="third-flower" class="flower">
+				<img src="images/flower-col-3.jpg">
+				<h4>Beautiful Rose</h4>
+				<p>Donec nec iaculis nibh, vitae laoreet dui. Curabitur semper elit at nunc eleifend, quis commodo urna pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+			</div>
+		</div>
+	</container>
+		<footer>
+			<section id="top-footer">
+				<div id="contact-details">
+					<h4>CONTACT DETAILS</h4>
+					<p>Phasellus finibus odio vitae justo euismod vehicula. Pellentesque sed pulvinar dolor, et tempus magna.</p>
+					<p>Tel: xxx-xxx-xxx<br>
+						Fax: xx-xxx-xxx-xxx<br>
+						Email: contact@mydomain.com</p>
+				</div>
+				<div id="quick-links">
+					<h4>QUICK LINKS</h4>
+					<ul>
+						<li><a href="#">Flower Shop</a></li>
+						<li><a href="#">Garden Accesories</a></li>
+						<li><a href="#">Our Favourites</a></li>
+						<li><a href="#">Our Team</a></li>
+					</ul>
+				</div>
+				<div id="from-the-blog">
+					<h4>FROM THE BLOG</h4>
+					<h5>Blog Post Title</h5>
+					<p>Aliquam lacinia massa lorem, vitae aliquam nisi bibendum non. Quisque lacus lacus, feugiat sit amet tellus et, porttitor condimentum sem. Donec blandit placerat risus ac ultrices.</p>
+					<a href="#">Read more >></a>
+				</div>
+				<div id="get-newsletter">
+					<h4>GRAB OUR NEWSLETTER</h4>
+					<form>
+						<input type="text" name="name" placeholder="Name">
+						<input type="email" name="email" placeholder="Email">
+						<input type="submit" name="submit" value="SUBMIT">
+					</form>
+				</div>
+			</section>
+			<section id="bottom-footer">
+				<div id="copyrights">
+					Copyright &copy; 2013 - All Rights Reserved - Domain Name
+				</div>
+				<div id="designer">
+					Template by OS Template
+				</div>
+			</section>
+		</footer>
+	</div>
+</body>
+</html>
